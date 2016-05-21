@@ -91,9 +91,11 @@ a.btn.m-btn.m-pay:hover,
 .b-compare__links a.btn.m-btn span.fa,
 .b-items__aside-sell-info a.btn.m-btn:hover span.fa
 {
-    background-color:#f76d2b;
-    fill: #f76d2b;
+    background-color:#cb1d24;
+    fill: #cb1d24;
 }
+
+
 
 /* Color 1*/
 .b-nav__logo h3 a,
@@ -449,6 +451,15 @@ select.m-select + span.fa,
     color:#555;
 }
 
+.b-nav__list ul li a{
+    color:#fff;
+	font-size:14px;
+}
+.dropdown-menu a{
+    color:#555 !important;
+
+	font-size:12px !important;
+}
 .s-title,
 .b-asks__call,
 .b-detail__main-aside-desc-value,

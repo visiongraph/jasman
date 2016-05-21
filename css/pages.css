@@ -45,7 +45,7 @@
 }
 
 .b-best__info p{
-    font: 300 13px 'Open Sans',sans-serif;
+    font: 400 13px 'Open Sans',sans-serif;
     margin: 0 0 40px 0;
     line-height: 1.9;
 }
@@ -62,6 +62,13 @@
 
 
 /*More*/
+
+.fondo-about{
+	background-image:url(../images/backgrounds/fondo2.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
 .b-more{
     padding: 75px 0;
     border-bottom:2px solid #eee;
@@ -75,6 +82,7 @@
     margin:  0 0 40px 0;
     font: 400 13px 'Open Sans',sans-serif;
     line-height:1.7;
+	text-align:justify;
 }
 
 .b-more__why ul.s-list{

@@ -36,7 +36,7 @@ body{
 
 .s-title{
     font: 700 18px 'Open Sans',sans-serif;
-    margin: 0 0 50px 0;
+    margin: 0 0 20px 0;
     padding: 0 15px;
     border-left: 4px solid #f76d2b;
     border-right: 4px solid #f76d2b;
@@ -61,7 +61,7 @@ body{
 
 .s-shadow.b-breadCumbs{
     box-shadow: 0px 30px 50px -24px rgba(0,0,0,0.1);
-    z-index:1000;
+    z-index:0;
 }
 
 .s-whiteShadow{
@@ -146,8 +146,9 @@ body{
 }
 
 .s-list li{
-    font:300 13px 'Open Sans',sans-serif;
-    margin-bottom: 10px;
+    font:400 13px 'Open Sans',sans-serif;
+    margin-bottom: 20px;
+	text-align:justify;
 }
 
 .s-form select{
@@ -391,10 +392,10 @@ label.s-submitCheck{
 	height: 100px;
 	margin-top: -50px;
 	margin-left: -50px;
-	-webkit-animation: spin 2.5s infinite linear;
-	animation: spin 2.5s infinite linear;
-	border: 3px solid transparent;
-	border-top-color: #3cd225;
+	-webkit-animation: spin 1.5s infinite linear;
+	animation: spin 1.5s infinite linear;
+	border: 0px solid transparent;
+	border-top-color: #ffffff;
 	border-radius: 50%;
 }
 #page-preloader .spinner:before, #page-preloader .spinner:after {
@@ -407,10 +408,10 @@ label.s-submitCheck{
 	right: 5px;
 	bottom: 5px;
 	left: 5px;
-	-webkit-animation: spin 2s infinite linear;
-	animation: spin 2s infinite linear;
+	-webkit-animation: spin 0.2s infinite linear;
+	animation: spin 0.2s infinite linear;
 	border: 3px solid transparent;
-	border-top-color:#2475ce;
+	border-top-color:#ffffff;
 }
 #page-preloader .spinner:after {
 	top: 15px;
@@ -420,7 +421,7 @@ label.s-submitCheck{
 	-webkit-animation: spin 1s infinite linear;
 	animation: spin 1s infinite linear;
 	border: 3px solid transparent;
-	border-top-color: #f76d2b;
+	border-top-color: #ffffff;
 }
 @-webkit-keyframes spin {
 	0% {

@@ -1588,15 +1588,91 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+@media (max-width: 1496px) {
+
+.b-welcome {
+    background: url(../images/backgrounds/audiBg.png) no-repeat;
+	background-position: -150px 0px !important;
+}
+}
+
+@media (max-width: 1200px) {
+  .b-nav__list ul li a{
+	font-size:12px !important;
+}
+
+}
+@media (max-width:992px) and (min-width:0px){
+	#nav-footer{
+		display:none;
+		visibility:hidden;
+}
+
+
+	
+	}
+@media (max-width:992px) and (min-width:600px){
+	#home-servicios{
+	border:#F00 0px solid;
+	position:relative;
+	margin-top:300px;
+}
+	#slide-1, #slide-2, #slide-3, #slide-4{
+		margin-top:1%;
+		margin-left:0%;
+	}
+	
+	}
+@media  (min-width:992px){
+		#slide-1, #slide-2, #slide-3, #slide-4{
+		margin-top:-5%;
+		margin-left:0%;
+	}
+
+	
+}	
+	
+@media (max-width:992px) and (min-width:768px){
+	
+	  .b-nav__list ul li a{
+	font-size:11px !important;
+	padding: 5px 5px !important;
+
+}	  
+
+.navbar-collapse.collapse{ margin-top:-18px;}
+	}
+@media (max-width: 992px) {
+#header-top { visibility:hidden !important;
+display:none; }
+
+.b-welcome {
+    background: url(../images/backgrounds/audiBg.png) no-repeat;
+	background-position: -1050px 0px !important;
+}
+
+}
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
   }
+
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
   }
+	#nav-footer{
+		margin-left:30px;
+	
+}
+	  .b-nav__list ul li a{
+
+	padding: 5px 10px !important;
+
+}	
 }
 @media (min-width: 1200px) {
   .container {
@@ -6472,7 +6548,7 @@ button.close {
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, .8);
 }
 .carousel-caption .btn {
   text-shadow: none;

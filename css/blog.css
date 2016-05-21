@@ -202,7 +202,55 @@
     background: url(../media/persons/author.jpg) center center no-repeat;
     margin-bottom: 35px;
 }
-
+.b-blog__posts-one-author-img2{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    background: url(../media/services/llantas.jpg) center center no-repeat;
+    margin-bottom: 35px;
+}
+.b-blog__posts-one-author-img3{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    background: url(../media/services/alinea.jpg) center center no-repeat;
+    margin-bottom: 35px;
+}
+.b-blog__posts-one-author-img4{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    background: url(../media/services/aceite.jpg) center center no-repeat;
+    margin-bottom: 35px;
+}
+.b-blog__posts-one-author-img5{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    background: url(../media/services/nitro.jpg) center center no-repeat;
+    margin-bottom: 35px;
+}
+.b-blog__posts-one-author-img6{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    background: url(../media/services/balanceo.jpg) center center no-repeat;
+    margin-bottom: 35px;
+}
+.b-blog__posts-one-author-img7{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    background: url(../media/services/suspencion.jpg) center center no-repeat;
+    margin-bottom: 35px;
+}
+.b-blog__posts-one-author-img8{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    background: url(../media/services/frenos.jpg) center center no-repeat;
+    margin-bottom: 35px;
+}
 .b-blog__posts-one-author{
     width:70px;
 }
@@ -301,7 +349,7 @@
 }
 
 .b-blog__posts-one  p{
-    font: 300 13px 'Open Sans',sans-serif;
+    font: 400 13px 'Open Sans',sans-serif;
     margin: 0 0 50px 0;
     line-height:1.9;
 }

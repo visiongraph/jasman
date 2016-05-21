@@ -297,6 +297,7 @@
 				$('#to-top').css({'display': display});
 			});
 			$("#to-top").smoothScroll();
+			$("#top-servicios").smoothScroll();
 		},
 	};
 
